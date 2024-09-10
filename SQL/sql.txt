@@ -1,0 +1,6 @@
+
+view vs Stored Procedures:
+	https://dev.to/rachelsoderberg/comparing-sql-views-and-stored-procedures-4pfb
+
+optimize queryes:
+	https://www.youtube.com/watch?v=sJN5UwC60bM

@@ -1,0 +1,10 @@
+sam init
+cd .
+sam build
+cd sam-app/
+sam build
+sam local invoke
+sam deploy --guided
+sam local start-api
+
+

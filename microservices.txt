@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=nrzLdMWTRMM
+https://kinsta.com/blog/python-microservices/
+https://technologyconversations.com/2015/11/10/microservices-the-essential-practices/
+https://www.vinaysahni.com/best-practices-for-building-a-microservice-architecture#load-balancers
+https://github.com/cloudacademy/python-flask-microservices/tree/master?tab=readme-ov-file
+https://earthly.dev/blog/python-microservices-rabbitmq-docker/
+https://mherman.org/presentations/microservices-flask-docker/#3
+
+
+https://www.youtube.com/watch?v=XB2lF_Z9cbs

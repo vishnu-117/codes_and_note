@@ -1,0 +1,52 @@
+scaler:
+https://www.scaler.com/academy/mentee-dashboard/core-curriculum/m/35/classes/
+
+https://www.pythonforbeginners.com/dictionary
+https://www.pythontutorial.net/
+https://www.geeksforgeeks.org/python-programming-language/
+https://www.geeksforgeeks.org/data-structures/
+https://runestone.academy/ns/books/published/pythonds/index.html
+https://www.programiz.com/dsa#google_vignette
+https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/#sequence-3
+http://www.btechsmartclass.com/data_structures/binary-search-tree.html
+https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/
+https://docs.python.org/3/library/queue.html
+https://docs.python.org/3/library/collections.html
+
+imp:
+https://docs.google.com/document/d/19oevUPa1nGr_k93XrMeXOa1niBqpILbJxucAqCRNihk/edit#heading=h.tjb1wel6o86d
+https://www.geeksforgeeks.org/explore?page=1&sprint=94ade6723438d94ecf0c00c3937dad55&sortBy=submissions&sprint_name=Love%20Babbar%20Sheet&itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
+love babbar dsa sheet:
+https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/
+https://450dsa.com/
+https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
+system design:
+https://takeuforward.org/system-design/complete-system-design-roadmap-with-videos-for-sdes/
+https://www.youtube.com/watch?v=QtTPohzfxA8&t=92s
+https://www.youtube.com/watch?v=WNtzUR_MwUQ&t=6s
+https://www.youtube.com/watch?v=qahaODNyI3M&t=2s
+https://docs.google.com/document/d/1sQlRDw6--HwyxeFL7b4kBsOG-Tz7rXMbpWNnfvJErA4/edit
+
+
+yt:
+mycodeschool:
+https://www.youtube.com/watch?v=gcULXE7ViZw
+sniple snippets:
+https://www.youtube.com/watch?v=VVXOE-hnFts&list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG&index=68
+neso academy:
+https://www.youtube.com/watch?v=xLetJpcjHS0&list=PLBlnK6fEyqRj9lld8sWIUNwlKfdUoPd1Y
+anuj bhaiya:
+https://www.youtube.com/watch?v=4tU7d0TTiZQ&list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p&index=36
+code help-by babbar:
+https://www.youtube.com/watch?v=Z7_nMTHROZo&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&index=22
+amulyas academy:
+https://www.youtube.com/watch?v=YAdLFsTG70w&list=PLAuemBFSZV1oE256PESc8ku8MX3xMQYJF
+
+
+
+
+data engineering:
+udemy:
+https://www.udemy.com/course/data-engineering-essentials-sql-python-and-spark/
+aws:
+https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/11851550?start=0#overview

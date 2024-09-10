@@ -1,0 +1,168 @@
+docker ps -a
+docker --help | less
+docker container run ubuntu cat /etc/os-release
+sudo docker container run ubuntu cat /etc/os-release
+sudo docker container ls
+sudo docker container ls -a
+sudo docker container run ubuntu sleep 30
+docker container start 787b10b9d64f
+sudo docker container start 787b10b9d64f
+sudo docker container run ubuntu sleep 30
+sudo docker container start 3cda262705e0
+sudo docker container run -it ubuntu /bin/bash
+sudo docker container stats
+ifconfig
+netstate nltp
+netstat nltp
+netstat -nltp
+ifconfig
+sudo docker container inspect 5878822e36a5
+sudo docker ps
+docker run -it ubuntu bash
+-d tag for run container in background
+-it tag for running interactive session
+
+docker container exec -it <id> bash => open container in bash mode
+
+10. create docker container, diff docker container and copy file into container
+    docker container create ubuntu sleep 10
+    docker container start 7e434234
+    docker container ls 
+    docker image ls
+    docker container diff 7e43434
+    docker container run -it ubuntu /bin/bash
+    docker container cp TSlog.txt 47d2cc1494af:/tmp/
+    watch 'docker container diff 47d'
+
+11. Export⧸Import docker container
+    docker container export 3213123 > ubuntu.tar
+    docker image import ubuntu.tar ubuntu_image
+    docker image ls
+    docker container create image_id
+
+12.how to create docker image from running container (docker commit).mkv
+    Creating a Docker image from a running container can be done using the docker commit command.
+    This allows you to save the state of a container as a new Docker image. Here are the steps to do this:
+    Find the Container ID: First, you need to find the ID of the running container from which you want to create an image.
+    You can do this with the docker ps command.
+    Commit the Container: Use the docker commit command to create a new image from the running container.
+
+    docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
+    docker commit a1b2c3d4e5f6 mynewimage:latest
+
+13.How to push image on docker hub, image tag, image pull, docker login
+    docker login
+    docker tag myimage your_username/myrepository:latest
+    docker push your_username/myrepository:latest
+    docker pull your_username/myrepository:latest
+
+14.How to inspect remove,inspect, list and history for the docker image
+    docker inspect <image_name_or_id>
+    docker rmi <image_name_or_id>
+    docker images
+    docker history <image_name_or_id>
+
+
+15.Docker save⧸docker load. Diff between export and save & load &import
+    docker save and docker load: Useful for creating and sharing Docker images, including all metadata and history.
+    docker export and docker import: Useful for exporting and importing the filesystem of containers,
+    often used for migrating or recovering container states without regard to the image history or metadata.
+
+    1. docker save and docker load
+    docker save -o <output_file>.tar <image_name_or_id>
+    docker save -o myimage.tar myimage:latest
+    docker load -i <input_file>.tar
+    docker load -i myimage.tar
+
+    2. docker export and docker import
+    docker export <container_id> -o <output_file>.tar
+    docker export mycontainer -o mycontainer.tar
+    docker import <input_file>.tar <repository_name>:<tag>
+    docker import mycontainer.tar mynewimage:latest
+
+
+16.：Layered Architecture and Dockerfiles.mkv
+17.：Dockerfile (Label, Run, Env, Workdir).mkv
+
+18.：Dockerfile (add, copy, user) difference between copy and add in docker file.mkv
+    1. ADD Command
+    The ADD command is used to copy files, directories, or remote URLs from your host machine to
+    the Docker image. It has some additional functionalities compared to COPY.
+
+    2. COPY Command
+    The COPY command is used to copy files and directories from your host machine to the Docker image.
+    It is more straightforward and only supports copying local files and directories
+
+
+
+
+
+
+
+
+19.：Dockerfile ( CMD ).mkv
+20.Dockerfile ( Expose and create a SSH container using dockerfile ).mkv
+    
+
+
+21.：Dockerfile (Entrypoint).mkv
+    sudo docker image build -t entrypoint .
+    sudo docker container run -it entrypoint
+
+22.：Docker Volume ( Docker Storage), mysql data persist in docker container.mkv
+23.：Docker Volume.mkv
+24.：Docker Volume (Remove, Prune).mkv
+25.：Docker Bind mount.mkv
+
+    1. Docker Volume (Docker Storage)
+    Example:
+    # Create a volume
+    docker volume create my-volume
+
+    # Use the volume in a container
+    docker run -d -v my-volume:/data my-container-image
+
+    2. MySQL Data Persistence in Docker Container
+    # Create a volume for MySQL data
+    docker volume create mysql-data
+
+    # Run a MySQL container with the volume
+    docker run -d \
+    --name mysql-container \
+    -e MYSQL_ROOT_PASSWORD=rootpassword \
+    -v mysql-data:/var/lib/mysql \
+    mysql:latest
+
+    3. Docker Volume Management (Remove, Prune)
+    # Remove a specific volume
+    docker volume rm my-volume
+    # Remove all unused volumes
+    docker volume prune
+
+    4. Docker Bind Mount
+    # Bind mount a host directory to a container directory
+    docker run -d \
+    --name my-container \
+    -v /path/on/host:/path/in/container \
+    my-container-image
+
+    Summary
+    Docker Volumes: Managed by Docker, suitable for persistent storage, especially in production.
+    Examples include creating, using, and managing volumes.
+    MySQL Data Persistence: Demonstrates using Docker volumes to persist MySQL database data across 
+    container restarts.
+    Volume Management: Involves removing specific volumes and pruning unused volumes.
+    Bind Mounts: Directly map host directories or files to container directories or files, useful for 
+    development and testing.
+
+
+26.：Docker Networking ( Bridge Network Overview ).mkv
+27.：Docker Networking (Bridge Network).mkv
+28.：Docker Networking (DNS Enable).mkv
+29.：Docker Networking (Host Network).mkv
+30.：Docker Networking (Null Network, None Network).mkv
+31.：Docker Networking (Connect, Disconnect).mkv
+32.：Docker Networking (Remove, Proun).mkv
+33.：Docker Registry⧸Repository (Insecure).mkv
+34.：Docker Registry⧸Repository (secure).mkv
+35.：Docker Registry With Basic Authentication.mkv
