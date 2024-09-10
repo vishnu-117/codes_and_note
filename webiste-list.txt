@@ -1,0 +1,12 @@
+https://chartio.com/ ---> To read sql related stuff
+https://www.mysqltutorial.org/ ==> Mysql
+https://refactoring.guru/design-patterns
+
+
+
+
+=====================
+System Design:
+=====================
+https://workat.tech/machine-coding/article/what-is-a-machine-coding-round-omfn1w54ojlg 
+https://arpitbhayani.me/

@@ -1,0 +1,57 @@
+master
+
+https://media.licdn.com/dms/document/media/D561FAQFzOfnTQY5pLQ/feedshare-document-pdf-analyzed/0/1720338701995?e=1721865600&v=beta&t=4Wa3HUAOgK4iO7tbPiiZv4wRNXlCaUTicc8SrxCt9Wg
+
+notes:
+https://dkharazi.github.io/notes/
+striver sheet:
+https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
+
+gret youtube:
+https://www.youtube.com/@HelloWorldbyprince/playlists
+
+gret site to learn dsa:
+https://www.programiz.com/dsa
+https://www.geeksforgeeks.org/batch/ppc-1?tab=Chapters
+
+dsa problem solving:
+https://leetcode.com/explore/interview/card/top-interview-questions-medium/
+https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm
+
+bit manuplation:
+https://www.youtube.com/watch?v=qQd-ViW7bfk&list=PLgUwDviBIf0rnqh8QsJaHyIX7KUiaPUv7
+https://www.youtube.com/watch?v=5rtVTYAk9KQ
+https://www.techiedelight.com/bit-hacks-part-2-playing-kth-bit/
+https://medium.com/techie-delight/bit-manipulation-interview-questions-and-practice-problems-27c0e71412e7
+https://dev.to/anurag629/the-power-of-bit-manipulation-how-to-solve-problems-efficiently-3p1h
+https://www.geeksforgeeks.org/bits-manipulation-important-tactics/
+https://dev.to/ggorantala/grokking-bit-manipulation-tricks-and-complete-guide-5cdo
+
+
+sliding window:
+https://www.youtube.com/results?search_query=sliding+window+problem
+https://leetcode.com/discuss/study-guide/3630462/Top-20-Sliding-Window-Problems-for-beginners
+
+backtraking :
+https://www.youtube.com/watch?v=cKARIsnRCAs&list=PLICVjZ3X1AcY5ai7at5OvS4ckXiMbWxCa&index=19
+https://medium.com/techie-delight/backtracking-practice-problems-and-interview-questions-6a17cb6d08a7
+https://www.geeksforgeeks.org/top-20-backtracking-algorithm-interview-questions/
+https://www.geeksforgeeks.org/complete-guide-to-recursion-and-backtracking/
+
+dp:
+https://www.geeksforgeeks.org/dynamic-programming/
+
+dsa leet code video:
+https://www.youtube.com/@HelloWorldbyprince/playlists
+https://www.youtube.com/@mohammadfraz/playlists
+
+
+LLD:
+design pattern:
+https://www.geeksforgeeks.org/what-is-low-level-design-or-lld-learn-system-design/?ref=footer
+
+
+
+aws:
+https://www.geeksforgeeks.org/amazon-vpc-introduction-to-amazon-virtual-cloud/
+

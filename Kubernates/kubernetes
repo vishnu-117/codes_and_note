@@ -1,0 +1,29 @@
+kubectl config view --> to see config, current cluster info
+kubectl config use-context minikube --> to change from one contect to another 
+kubectl create deployment first-app --image=9512545108/kub-first-app --> to create new deployment
+kubectl get deployments --> to get deployment
+kubectl get pods --> to get pods
+minikube start --> to start minicube 
+minikube dashboard --> to see minikube dashboard
+kubectl expose deployments first-app --type LoadBalancer --port 8080 --> to expose our deployment to out side of cluster(service object is used)
+kubectl get services --> to get list of services
+minikube service first-app --> to get mapping url
+minikube service first-app --> ip mapping for minikube
+kubectl scale deployment/first-app --replicas=3 --> for scaling(create new replicas)
+
+
+docker build -t 9512545108/kub-first-app:2 . --> build docker image
+docker push 9512545108/kub-first-app:2 --> push image to dockerhub
+kubectl set image deployment/first-app  kub-first-app=9512545108/kub-first-app:2 --> update container
+
+kubectl rollout undo deployment/first-app --> undo last failed deployment
+kubectl apply -f=deployment.yaml
+kubectl delete deployment second-app-deployment
+kubectl delete -f=master-deployment.yaml
+kubectl logs -f deployment/second-app-deployment ==> to see logs
+docker build -t 9512545108/kub-first-app:2 .
+sudo docker-compose up -d --build
+docker-compose down
+minikube service story-service ==> to expose ip
+
+

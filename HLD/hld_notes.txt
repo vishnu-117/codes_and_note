@@ -1,0 +1,95 @@
+consistent hashing:
+-consistent hashing can be used to uniformly distribute the keys
+-where it can be used: 1)Load balancer 2)Horizontal scaling(CDN,Database,Caching)
+-rebalancing on average will be k/n keys need to be remapped. where k is the number  of keys and n is the total number of slots.
+
+================================================
+
+Load Balancing:
+-software
+	1)Round Robin
+	2)Sticky round robin
+	3)Weighted round robin
+	4)IP/Url Hash
+	5)Least connection
+	6)Least response time
+-hardware
+
+================================================
+Database:
+1)SQl
+Follow acid properties
+Atomicity-Either operation succeed or failure togher there is no midway
+Consistency=> successfully transaction put database in valid state that is no schama violation : ex>no negative balance in customer account
+isolation=>Transaction can be executed cuncurrently
+Durability=> once the transaction has completed execution, they persist even if a system failure occurs
+
+when to use:
+1)want to store structure data and want perform flexible query into it
+2)when you need acid property for database
+3)when you are working on consistent data and in future you don't need more server for huge growth
+
+2)No sql
+-when you have unstructured data
+-when data can be stored in multiple nodes. Distrubuted in nature
+-scale horizontally
+-it provide base property
+Ba=>Basically available (highly available)
+Safe state=>value can be changed even wihout interence with user
+Eventual consistent=>you might have older data but eventually you will get latest data after sync
+
+when to use:
+-Basic query need to perform
+-no need of acid property
+-when we need deal with high volume of data, need highly availabelity and high performance with eventual consistency.
+
+1)key-value database
+-it is like big hash talbe
+-query can be performed via key, it is suatable for caching
+ex.Redis, Dynamo db
+
+2)Document database
+-it is good for content management support in amazon different product having different attributes. query can be performed by key as well as value.
+ex.CouchDB, Mongodb
+
+3)Columnar db
+-it help to store data in column
+-it is suatable for analyzing larger dataset which perform faster read and write querys
+ex.cassandra , Hbase
+
+4)Graph Database
+-it is used to store data whose relationship are best represented in a graph and quickly performed query on these relationships.
+-it is suatable for social networking recommandation engines
+ex.Neo4j, Infinity Graph
+
+5)Search Engine database
+-it provide searh on semistructured or unstructured data
+-it also support "fuzzy search",  meaning the result may not exactly  match the search string.
+-it is suatable for instance autosuggestion or autocomplete
+ex.Elasticsearch, splunk, solar
+
+6)Time series database
+-it is optimized for dataentries that need to be strictly ordered by time.
+-Best suatable for application performance metrics, sensor data from iot device
+ex.Influx db, kdb+
+
+7)Object store
+-it is used for storing videos, images, audio, disk images, and log binaries,
+-query can't be performed file need  be served as it is.
+ex.Amazon s3, Google cloud storage
+
+=======================================
+database raplication
+
+different database replication technique based on server architecture
+1)Master slave architecture(Active/passive)
+2)Master-master architecture(Active/active)
+
+Different database replication technique based on timing of data transfer
+1)synchronous
+2)Asynchronous
+3)semi-synchronous
+
+
+
+
