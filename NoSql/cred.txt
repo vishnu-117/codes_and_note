@@ -1,3 +1,0 @@
-vishnuthuletiya  ISb91v0C3oCUdysY mongo pass
-
-mongodb+srv://vishnuthuletiya:ISb91v0C3oCUdysY@cluster1.uknoe.mongodb.net/
