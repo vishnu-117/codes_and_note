@@ -1,5 +1,12 @@
-from multiprocessing import Process
+from multiprocessing import Process, Pool
 import time
+"""
+Use Process:
+
+When you need full control over individual processes (e.g., custom configuration, starting/stopping processes manually).
+For long-running processes where the overhead of creating and managing processes manually is not a concern.
+When processes need to communicate with each other via pipes or queues.
+"""
 
 start = time.perf_counter()
 

@@ -5,6 +5,6 @@ ini_list = [
 ]
 
 # ini_list.sort(key=lambda x: x["d.o.b"])
-a = sorted(ini_list, key=lambda x: x["d.o.b"])
+a = sorted(ini_list, key=lambda x: x["d.o.b"], reverse=True)
 print(a)
 

@@ -1,0 +1,1 @@
+ECR, ECS, EC2, VPC, S3, SQS ,SNS, CloudFormation, DynamoDB, Cognito, CloudWatch, Lambda, System Manager, Route 53, Amplify, Appsync, CodeBuild, RDS, SES, IAM, API Gateway.
